@@ -2,7 +2,7 @@
 
 [![Documentation Status](http://readthedocs.org/projects/paquete-apertura-datos/badge/?version=stable)](http://paquete-apertura-datos.readthedocs.org/es/stable/?badge=stable)
 
-Repositorio de las guías de datos del Gobierno de la Ciudad de Buenos Aires.
+Repositorio de las Guías de datos del Gobierno de la Ciudad de Buenos Aires. Los presentes documentos fueron realizados en el marco de los encuentros de Mesa de Datos durante el año 2018 y tienen como objetivo establecer los lineamientos y estándares principales en materia de gestión de datos de la administración pública de la Ciudad.
 
 ### Herramientas
 
