@@ -226,7 +226,7 @@ a,,b\r\n
 a,"",b\r\n
 ```
 
-Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,). Para realizarlo en Microsoft Excel, se debe ir Archivo > Abrir > Archivos de texto y allí usar las comas (,) como separadores de columnas.
+Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,).
 
 ### JSON
 
