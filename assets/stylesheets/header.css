@@ -13,6 +13,7 @@ text-decoration: none;
 #header #nombre-sitio h1{
 float: left;
 color: #444444;
+margin-top: 23px;
 }
 
 #ba-logo {

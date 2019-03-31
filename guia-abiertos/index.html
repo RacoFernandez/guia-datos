@@ -2,7 +2,7 @@
 
 
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es" class="no-js">
   <head>
     
@@ -38,7 +38,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.0.6">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
     
     
       
@@ -46,19 +46,20 @@
       
     
     
-	
-      <link rel="stylesheet" href="../assets/stylesheets/application.451f80e5.css">
+  <link rel="stylesheet" href="../assets/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="../assets/stylesheets/bastrap.css">
+  <link rel="stylesheet" href="../assets/stylesheets/header.css">
+  <link rel="stylesheet" href="../assets/stylesheets/footer.css">
+  
+      <link rel="stylesheet" href="../assets/stylesheets/application.3020aac5.css">
       
       
     
-	<link rel="stylesheet" href="../css/extra.css">
+  <link rel="stylesheet" href="../assets/stylesheets/extra.css">
 
     
+      <script src="../assets/javascripts/modernizr.01ccdecf.js"></script>
     
-      <script src="../assets/javascripts/modernizr.1aa3b519.js"></script>
-    
-    <script src="../js/extra.js"></script>
-
     
       
         <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -68,15 +69,34 @@
     
     <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
-      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
     
-      <link rel="stylesheet" href="../assets/stylesheets/bootstrap.css">
     
-      <link rel="stylesheet" href="../assets/stylesheets/bastrap.css">
-    
-      <link rel="stylesheet" href="../assets/stylesheets/footer.css">
-    
-      <link rel="stylesheet" href="../assets/stylesheets/header.css">
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "UA-129525617-1", "https://datosgcba.github.io/guia-datos/")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+      
     
     
   </head>
@@ -193,20 +213,18 @@
 
   
 
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
+<a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
           </div>
         </div>
       
@@ -269,20 +287,18 @@
 
   
 
-
-  <a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
-    
-      <div class="md-source__icon">
-        <svg viewBox="0 0 24 24" width="24" height="24">
-          <use xlink:href="#__github" width="24" height="24"></use>
-        </svg>
-      </div>
-    
-    <div class="md-source__repository">
-      GitHub
+<a href="https://github.com/datosgcba/" title="Ir al repositorio" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
     </div>
-  </a>
-
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
           </div>
         
       
@@ -1313,7 +1329,7 @@ a,,b\r\n
 a,&quot;&quot;,b\r\n
 </code></pre>
 
-<p>Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,). Para realizarlo en Microsoft Excel, se debe ir Archivo &gt; Abrir &gt; Archivos de texto y allí usar las comas (,) como separadores de columnas.</p>
+<p>Cabe destacar que un archivo csv puede convertirse en un archivo de planilla de cálculo ingresando al formato propietario de MS Office o software similar, donde los campos se separarán en columnas independientes a través de (,).</p>
 <h3 id="json">JSON</h3>
 <p>JSON es un formato de texto popular para el intercambio de datos, es un acrónimo de  JavaScript Object Notation. Por su característica de ser un formato de tipo estructurado es especialmente útil para el intercambio de datos entre máquina (<em>machine - readable format</em>).</p>
 <p>El formato JSON ha sido definido por la especificación <a href="https://tools.ietf.org/html/rfc7159">RFC 7159</a> y, tal como CSV, también es un estándar abierto.</p>
@@ -2294,7 +2310,7 @@ Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -&gt; &quot;LUN-MIE__08:0
       
     </div>
     
-      <script src="../assets/javascripts/application.5e60981f.js"></script>
+      <script src="../assets/javascripts/application.dc02f8ce.js"></script>
       
         
         
@@ -2312,11 +2328,6 @@ Lunes a Miercoles 8 a 11 y de Viernes a Domingo 9 a 10 -&gt; &quot;LUN-MIE__08:0
         
       
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
-      
-    
-    
-      
-        <script>!function(e,a,t,n,o,c,i){e.GoogleAnalyticsObject=o,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),i=a.getElementsByTagName(t)[0],c.async=1,c.src="https://www.google-analytics.com/analytics.js",i.parentNode.insertBefore(c,i)}(window,document,"script",0,"ga"),ga("create","UA-129525617-1","https://datosgcba.github.io/guia-datos/"),ga("set","anonymizeIp",!0),ga("send","pageview");var links=document.getElementsByTagName("a");if(Array.prototype.map.call(links,function(e){e.host!=document.location.host&&e.addEventListener("click",function(){var a=e.getAttribute("data-md-action")||"follow";ga("send","event","outbound",a,e.href)})}),document.forms.search){var query=document.forms.search.query;query.addEventListener("blur",function(){if(this.value){var e=document.location.pathname;ga("send","pageview",e+"?q="+this.value)}})}</script>
       
     
   </body>
