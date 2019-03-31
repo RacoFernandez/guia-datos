@@ -12,16 +12,8 @@ nav:
   - Política de Datos Abiertos: politica-datos-abiertos.md 
   - Glosario: glosario.md
 
-theme:
-  name: 'material'
-  custom_dir: 'custom_theme'
-  logo: 'assets/images/logos/ba_logo.png'
 
-extra_css:
-  - 'assets/stylesheets/extra.css'
-  - 'assets/stylesheets/bootstrap.css'
-  - 'assets/stylesheets/bastrap.css'
-  - 'assets/stylesheets/footer.css'
-  - 'assets/stylesheets/header.css'
+theme:
+  name: 'datosgcba_docs'
 
 google_analytics: ['UA-129525617-1', "https://datosgcba.github.io/guia-datos/"]
