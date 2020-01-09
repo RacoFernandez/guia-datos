@@ -21,6 +21,7 @@
     - [Direcciones y lugares](#direcciones-y-lugares)
     - [**Códigos postales**](#codigos-postales)
   - [**Personas físicas**](#personas-fisicas)
+  - [**Perspectiva de Género**](#perspectiva-de-genero)
   - [**Personas jurídicas**](#personas-juridicas)
   - [**Entidades de Gobierno de la Ciudad Autónoma de Buenos Aires**](#entidades-de-gobierno-de-la-ciudad-autonoma-de-buenos-aires)
 
@@ -737,6 +738,43 @@ Tal como explicamos en el caso de países o territorios internacionales, si hubi
 </tbody>
 </table>
 
+### **Perspectiva de Género**
+
+En el espíritu de lo establecido por la [Ley Nº 91 de 1998](https://www.buenosaires.gob.ar/areas/leg_tecnica/sin/normapop09.php?id=919&qu=c&ft=0&cp=&rl=1&rf=0&im=&ui=0&printi=1&pelikan=1&sezion=2316523&primera=0&mot_toda=&mot_frase=&mot_alguna=) y la [Ley Nº 5.924 de 2017](http://www2.cedom.gob.ar/es/legislacion/normas/leyes/ley5924.html), ambas sancionadas por la Legislatura de la CABA, **todos los datos que refieran a personas físicas deben estar desagregados por sexo y género.** 
+
+A tales efectos, **todas las bases de datos abiertos del GCBA cuyas unidades de análisis sean personas físicas deberán incluir los campos “sexo” y “género”.**
+
+1. La variable **sexo** refiere al sexo al momento del nacimiento de la persona; es decir, el sexo biológico asignado al nacer.
+Siguiendo lo establecido por la norma [ISO 5218](https://www.iso.org/standard/36266.html), debe ser categorizada de la siguiente manera:
+  
+    * "Varón"
+    * "Mujer"
+
+2. La variable **género** refiere a la identidad de género de la persona; es decir, la expresión de género con la cual una persona se identifica y autorreconoce. 
+  Debe ser categorizada de la siguiente manera:
+
+    * “Varón”
+    * “Mujer”
+    * “Varón trans”
+    * “Mujer trans”
+    * “Travesti”
+    * “Otro”
+
+3. Las variables **“sexo”** y **“género”** no son intercambiables. Ambas variables deben ser incluidas en la sistematización y publicación de todos los datos que refieren a personas físicas, incluso cuando los valores de ambas variables coincidan o haya valores para sólo una de ellas. 
+
+4. La variable **“sexo”** debe continuar presente en todas las bases de datos, ya que de otra manera se imposibilitaría la comparabilidad con datos sistematizados en el pasado. 
+
+5. No confundir **“sexo”** o **“género/identidad de género”** con **“orientación sexual”** (atracción emocional y/o sexual que una persona mantiene hacia otra), en caso de que tal categoría existiese en una base de datos. De ser así, debe crearse un nuevo campo con el nombre “orientación sexual”. 
+
+Para más información al respecto podés consultar:
+
+- [Ley N° 91/2008: Consignación de variables de sexo y edad en la Ciudad de Buenos Aires](https://www.buenosaires.gob.ar/areas/leg_tecnica/sin/normapop09.php?id=919&qu=c&ft=0&cp=&rl=1&rf=0&im=&ui=0&printi=1&pelikan=1&sezion=2316523&primera=0&mot_toda=&mot_frase=&mot_alguna=)
+- [Ley N° 474/2000: Plan de Igualdad real de oportunidades y de trato entre mujeres y varones](http://www2.cedom.gov.ar/es/legislacion/normas/leyes/ley474.html)
+- [Ley N° 5924/2007: Incorporación de enfoque de género en las producciones estadísticas de la Ciudad de Buenos Aires](http://www2.cedom.gov.ar/es/legislacion/normas/leyes/ley474.html)
+- [Marco de referencia del SIGBA](https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2018/05/marco_referencia_SIGBA.pdf)
+- [Nuevas realidades, nuevas demandas. Desafíos para la medición de la identidad de género en el Censo de Población (INDEC, 2019)](https://www.indec.gob.ar/ftp/cuadros/publicaciones/identidad_genero_censo_2020.pdf)
+- [Australian Government Guidelines on the Recognition of Sex and Gender (2015)](https://www.ag.gov.au/Publications/Documents/AustralianGovernmentGuidelinesontheR
+ecognitionofSexandGender/AustralianGovernmentGuidelinesontheRecognitionofSexandGender.PDF)
 
 ### **Personas jurídicas**
 
